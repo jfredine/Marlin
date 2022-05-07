@@ -47,7 +47,6 @@ namespace Language_da {
   LSTR MSG_LEVEL_BED_DONE                 = _UxGT("Bed level er færdig!");
   LSTR MSG_SET_HOME_OFFSETS               = _UxGT("Sæt forsk. af home");
   LSTR MSG_HOME_OFFSETS_APPLIED           = _UxGT("Forsk. er nu aktiv");
-  LSTR MSG_SET_ORIGIN                     = _UxGT("Sæt origin");
   #if HAS_PREHEAT
     LSTR MSG_PREHEAT_1                    = _UxGT("Forvarm ") PREHEAT_1_LABEL;
     LSTR MSG_PREHEAT_1_H                  = _UxGT("Forvarm ") PREHEAT_1_LABEL " ~";
@@ -173,12 +172,12 @@ namespace Language_da {
   LSTR MSG_INFO_PSU                       = _UxGT("Strømfors.");
 
   LSTR MSG_DRIVE_STRENGTH                 = _UxGT("Driv Styrke");
-  LSTR MSG_DAC_PERCENT_A                  = LCD_STR_A _UxGT(" Driv %");
-  LSTR MSG_DAC_PERCENT_B                  = LCD_STR_B _UxGT(" Driv %");
-  LSTR MSG_DAC_PERCENT_C                  = LCD_STR_C _UxGT(" Driv %");
-  LSTR MSG_DAC_PERCENT_I                  = LCD_STR_I _UxGT(" Driv %");
-  LSTR MSG_DAC_PERCENT_J                  = LCD_STR_J _UxGT(" Driv %");
-  LSTR MSG_DAC_PERCENT_K                  = LCD_STR_K _UxGT(" Driv %");
+  LSTR MSG_DAC_PERCENT_A                  = STR_A _UxGT(" Driv %");
+  LSTR MSG_DAC_PERCENT_B                  = STR_B _UxGT(" Driv %");
+  LSTR MSG_DAC_PERCENT_C                  = STR_C _UxGT(" Driv %");
+  LSTR MSG_DAC_PERCENT_I                  = STR_I _UxGT(" Driv %");
+  LSTR MSG_DAC_PERCENT_J                  = STR_J _UxGT(" Driv %");
+  LSTR MSG_DAC_PERCENT_K                  = STR_K _UxGT(" Driv %");
   LSTR MSG_DAC_PERCENT_E                  = _UxGT("E Driv %");
 
   LSTR MSG_DAC_EEPROM_WRITE               = _UxGT("DAC EEPROM Skriv");

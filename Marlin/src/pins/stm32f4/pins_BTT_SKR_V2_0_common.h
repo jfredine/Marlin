@@ -23,6 +23,8 @@
 
 #include "env_validate.h"
 
+#define USES_DIAG_JUMPERS
+
 // If you have the BigTreeTech driver expansion module, enable BTT_MOTOR_EXPANSION
 // https://github.com/bigtreetech/BTT-Expansion-module/tree/master/BTT%20EXP-MOT
 //#define BTT_MOTOR_EXPANSION
@@ -253,7 +255,7 @@
   #define FAN_PIN                           PB7   // Fan0
 #endif
 
-#if EITHER(SPINDLE_FEATURE, LASER_FEATURE)
+#if HAS_CUTTER
   #ifndef SPINDLE_LASER_PWM_PIN
     #define SPINDLE_LASER_PWM_PIN           PB5
   #endif
